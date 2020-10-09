@@ -1,0 +1,60 @@
+.game
+{
+    border: 2px solid #666;
+    background-color: black;
+
+}
+
+.game-cell
+{
+    border: 1px solid #222;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.game-row
+{
+    display: flex;
+    align-content: stretch;
+}
+
+.game-cell[data-cell-type='head'], .game-cell[data-cell-type='snake-head']
+{
+    background: red;
+}
+
+.game-cell[data-cell-type='green'], .game-cell[data-cell-type='snake-green']
+{
+    background: green;
+}
+
+.game-cell[data-cell-type='blue'], .game-cell[data-cell-type='snake-blue']
+{
+    background: blue;
+}
+
+.game-cell[data-cell-type='white'], .game-cell[data-cell-type='snake-white']
+{
+    background: white;
+}
+
+.game-cell[data-cell-type='snake-head']
+{
+    border-radius: 50%;
+}
+
+.game-cell[data-cell-type='snake-green']
+{
+    border-radius: 50%;
+}
+
+.game-cell[data-cell-type='snake-blue']
+{
+    border-radius: 50%;
+}
+
+.game-cell[data-cell-type='snake-white']
+{
+    border-radius: 50%;
+}
